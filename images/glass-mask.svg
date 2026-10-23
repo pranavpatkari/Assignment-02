@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-label="A drinking glass fitted with a Sippline shield lid">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#8a5a2b"/>
+      <stop offset=".55" stop-color="#4a2e17"/>
+      <stop offset="1" stop-color="#1c120a"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".55"/>
+      <stop offset=".25" stop-color="#ffffff" stop-opacity=".12"/>
+      <stop offset=".7" stop-color="#ffffff" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bfe8ff" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#5fb7e8" stop-opacity=".6"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" x2="1">
+      <stop offset="0" stop-color="#f26a3d"/>
+      <stop offset=".5" stop-color="#ff9a6b"/>
+      <stop offset="1" stop-color="#e5582c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <!-- warm wall slats -->
+  <g stroke="#c99254" stroke-opacity=".18" stroke-width="10">
+    <line x1="120" y1="0" x2="120" y2="800"/><line x1="200" y1="0" x2="200" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/><line x1="680" y1="0" x2="680" y2="800"/>
+  </g>
+  <!-- table -->
+  <rect x="0" y="600" width="800" height="200" fill="#120b06" opacity=".85"/>
+  <ellipse cx="400" cy="612" rx="150" ry="20" fill="#000" opacity=".45"/>
+
+  <!-- glass body -->
+  <path d="M290 260 L510 260 L480 600 Q400 620 320 600 Z" fill="url(#glass)" stroke="#fff" stroke-opacity=".6" stroke-width="4"/>
+  <!-- water -->
+  <path d="M302 380 L498 380 L480 596 Q400 614 320 596 Z" fill="url(#water)"/>
+  <ellipse cx="400" cy="380" rx="98" ry="10" fill="#e6f7ff" opacity=".6"/>
+  <!-- highlight -->
+  <path d="M312 280 L330 580" stroke="#fff" stroke-opacity=".7" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Sippline shield lid -->
+  <rect x="270" y="222" width="260" height="46" rx="16" fill="url(#lid)"/>
+  <path d="M330 222 Q400 150 470 222 Z" fill="url(#lid)"/>
+  <rect x="384" y="150" width="32" height="46" rx="10" fill="#2b2b2b"/>
+  <circle cx="400" cy="245" r="8" fill="#fff" opacity=".85"/>
+
+  <!-- shield badge -->
+  <g transform="translate(500 200)">
+    <path d="M60 0 L115 20 L110 80 Q95 125 60 140 Q25 125 10 80 L5 20 Z" fill="#fff" opacity=".92"/>
+    <path d="M38 70 L55 88 L88 50" fill="none" stroke="#f26a3d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
